@@ -4,7 +4,7 @@ import { Tab, TabList } from "@headlessui/react";
 import Logo from "./../../../components/Logo/Logo";
 import Profile from "./../../../components/Profile/Profile";
 import { NavLink } from "react-router-dom";
-import { LuClipboardEdit } from "react-icons/lu";
+import { LuClipboardPen } from "react-icons/lu";
 import { HiMiniUsers } from "react-icons/hi2";
 import { FaListCheck } from "react-icons/fa6";
 import { BsCloudPlus } from "react-icons/bs";
@@ -50,7 +50,7 @@ const CreateSidebar = () => {
               "py-4 rounded-md duration-300 hover:text-black  data-[selected]:bg-white"
             }
           >
-            <LuClipboardEdit />
+            <LuClipboardPen />
           </Tab>
         )}
         {user.role === "student" ? null : (
