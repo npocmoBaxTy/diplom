@@ -1,0 +1,7 @@
+.user__page-img:hover .change__img {
+	display: flex;
+}
+.change__img {
+	cursor: pointer;
+	display: none;
+}

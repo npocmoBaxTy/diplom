@@ -1,0 +1,6 @@
+.change__img-btn {
+  display: none;
+}
+.question__img:hover .change__img-btn {
+  display: flex;
+}

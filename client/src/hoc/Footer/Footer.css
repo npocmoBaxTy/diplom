@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  .footer {
+    margin-top: 10px;
+  }
+  .footer__list {
+    gap: 5px;
+    color: #fff;
+  }
+}

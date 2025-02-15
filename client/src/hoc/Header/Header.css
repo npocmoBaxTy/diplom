@@ -1,0 +1,30 @@
+.header .mini_logo {
+  display: none;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .header {
+    padding: 10px !important;
+    justify-content: space-between;
+  }
+  .header {
+    font-size: 16px;
+  }
+  .header .search__main {
+    display: none;
+  }
+  .header .mini_logo {
+    display: block;
+  }
+  .header .big__logo .logo {
+    display: none;
+  }
+  .header .header__profile-wrapper {
+    margin-left: auto;
+  }
+  .header .header__profile-wrapper .profile__inner-names {
+    display: none;
+  }
+  .header .profile__default-avatar {
+    margin-right: 0;
+  }
+}

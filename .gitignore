@@ -1,0 +1,7 @@
+# Исключаем лишние файлы
+node_modules/
+.env
+build/
+dist/
+.DS_Store
+.vscode/

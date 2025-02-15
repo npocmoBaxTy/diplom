@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (min-width: 100px) and (max-width: 1024px) {
+  .Auth {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .content__cards {
+    justify-content: space-around;
+  }
+  .main__content-card {
+    width: 48% !important;
+  }
+}
+@media (min-width: 100px) and (max-width: 806px) {
+  .main__content-inner {
+    padding: 5px;
+    margin-top: 20px;
+  }
+  .main__content-card {
+    width: 95% !important;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main__content-card .card__info {
+    width: 100%;
+    font-size: 13px;
+  }
+  .filters__content .sort {
+    display: none;
+  }
+  .main__content-filters * {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .questionBox {
+    align-items: center;
+    justify-content: center;
+  }
+  .questionBox .questionContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .questionBox {
+    min-width: 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+  .questionBox .quiz__timer-wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+  .quiz__timer-inner {
+    justify-content: center !important;
+    border-radius: 0;
+  }
+  .quiz__section {
+    height: auto;
+    min-height: 150vh;
+  }
+  .quiz__timer-inner {
+    padding: 0;
+    padding-top: 10px;
+  }
+}

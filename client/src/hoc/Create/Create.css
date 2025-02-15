@@ -1,0 +1,24 @@
+.create__wrapper .sidebar-tab-list button[data-selected] {
+  outline: none;
+  transition: 0.3s;
+  color: #fff;
+  background-color: #457f8d;
+  border: none;
+}
+.create__wrapper .logo {
+  color: #457f8d;
+}
+.create__wrapper-nav .sidebar-tab-list button,
+.create__wrapper-nav .sidebar-tab-list a.to__create {
+  color: #457f8d;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #91c9d6;
+  width: 90%;
+}
+
+.create__wrapper .header__profile-wrapper {
+  margin-left: 0;
+}

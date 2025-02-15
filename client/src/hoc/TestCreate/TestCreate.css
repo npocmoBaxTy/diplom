@@ -1,0 +1,19 @@
+.new__test-wrapper .logo {
+  font-size: 16px;
+  color: gray;
+}
+.new__test-wrapper .profile__default-avatar {
+  margin-right: 0;
+}
+.new__test-wrapper .header button {
+  outline: none;
+}
+.new__test-wrapper .header button[data-selected] {
+  font-weight: 900;
+  border-bottom: 2px solid #c0c0c0;
+  padding-bottom: 0.5rem;
+}
+
+.new__test-wrapper .modal__new.active {
+  display: flex;
+}
